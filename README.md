@@ -13,6 +13,8 @@ key doesn't expire.
 
 The implementation is using `Jedis` client.
 
+The lock works globaly as long as it's talking to the same redis instance.
+
 Simple usage:
 ```
 Jedis jedis = new Jedis("localhost");
