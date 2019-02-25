@@ -1,4 +1,4 @@
-# Redis lock 
+# Reentrant Distributed Redis Lock 
 
 Simple implementation of reentrant distributed lock using Redis.
 The implementation implements `{@link Lock}` so it can be used instead of
